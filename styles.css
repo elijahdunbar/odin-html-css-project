@@ -126,7 +126,7 @@ body {
 }
 
 .header {
-	background-color: #1f2937;
+	background-color: #c58455;
 	padding: 15px 10% 75px;
 	display: flex;
 	flex-direction: column;
@@ -157,14 +157,13 @@ a {
 
 .main-text {
 	font-size: 48px;
-	color: #f9faf8;
+	color: #F9E4D4;
 	font-weight: 800;
 	max-width: 400px;
 }
 
 .secondary-text,
-a,
-.image {
+a {
 	font-size: 18px;
 	color: #e5e7eb;
 }
@@ -173,17 +172,25 @@ a,
 	width: 475px;
 }
 
-.image {
-	background-color: grey;
+/* .image {
 	display: flex;
+    max-width: 300px;
+    max-height: 300px;
 	align-items: center;
 	justify-content: center;
 	flex: 1;
-}
+} */
 
+img {
+    height: auto;
+    width: 10em;
+    border: #470D21 solid 3px;
+    box-sizing: border-box;
+}
 .header-content {
 	display: flex;
-	gap: 10%;
+    justify-content: center;
+	gap: 5%;
 }
 
 .header-left {
@@ -218,12 +225,11 @@ button {
 	font-weight: 800;
 }
 
-.info-img {
+/* .info-img {
 	height: 150px;
 	width: 150px;
-	border: #3882f6 solid 5px;
-	border-radius: 10px;
-}
+    display: flex;
+} */
 
 .info-subtext {
 	font-size: 15px;
@@ -247,24 +253,26 @@ button {
 }
 
 .info {
-	padding: 15px 15% 75px;
+    background-color: #F9E4D4;
+	padding: 15px 15% 0px;
 	display: flex;
 	flex-direction: column;
 	gap: 25px;
 }
 
 .quote-section {
-    background-color: #e5e7eb;
+    background-color: #F9E4D4;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 50px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 blockquote {
@@ -281,7 +289,7 @@ figcaption {
     align-self: flex-end;
 }
 
-.call-section {
+/* .call-section {
     padding: 100px 200px;
     display: flex;
     align-items: center;
@@ -315,11 +323,11 @@ figcaption {
 
 .call-subtext {
     color: #e5e7eb;
-}
+} */
 
 .footer {
-    background-color: #1f2937;
-    color: #e5e7eb;   
+    background-color: #c58455;
+    color: #F9E4D4;   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -329,4 +337,8 @@ figcaption {
 footer {
     padding: 0;
     margin: 0;
+}
+
+.info, .quote-section {
+    color: #9C0F48;
 }

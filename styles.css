@@ -244,6 +244,7 @@ button {
 	justify-content: center;
 	align-items: center;
 	gap: 8px;
+    flex-wrap: wrap;
 }
 
 .info-images {
@@ -256,6 +257,7 @@ button {
     background-color: #F9E4D4;
 	padding: 15px 15% 0px;
 	display: flex;
+    flex-wrap: wrap;
 	flex-direction: column;
 	gap: 25px;
 }
